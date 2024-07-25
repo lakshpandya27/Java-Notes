@@ -1,0 +1,20 @@
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	https://question.onlinegdb.com/
+	
+	String num[]={"12","23","123","1234"};
+	StringBuilder snum=new StringBuilder();
+	int tot=0;
+	for(String n:num)
+	{
+	    int IntN=Integer.parseInt(n);
+	    tot+=IntN;
+	    snum.append(tot);
+	    snum.append("\t");
+	}
+	System.out.print(snum);
+}
+}

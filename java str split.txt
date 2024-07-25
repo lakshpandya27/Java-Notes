@@ -1,0 +1,31 @@
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	
+	
+	String sentance="I am Boy";
+	String phno="98-87-76-56";
+	
+	/*for(String word:sentance.split(" "))
+	{
+	    System.out.print(word);
+	}*/
+	for(String word:sentance.split("\\s+"))
+	{
+	    System.out.print(word);
+	}
+	System.out.println();
+	
+/*	for(String no:phno.split("-"))
+	{
+	    System.out.print(no);
+	}*/
+	
+	for(String no:phno.split("\\D+"))
+	{
+	    System.out.print(no);
+	}
+	}
+	}

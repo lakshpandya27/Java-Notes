@@ -1,0 +1,25 @@
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	
+	
+	String sentance="Explore working with strings";
+	
+	String sent1=sentance.replace("with", "on");
+	System.out.println(sent1);
+	String words[]=sentance.split("\\s+");
+	for(String word:words)
+	{
+	    System.out.print(word);
+	}
+	System.out.println();
+	
+
+String sentance2="Explore,working! with strings?";
+		String sent2=sentance2.replaceAll("\\p{Punct}"," ");
+	System.out.println(sent2);
+	
+}
+}

@@ -1,0 +1,26 @@
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	
+	
+	String n1[]={"L","A","K","S","H"};
+	
+	StringBuilder mySB=new StringBuilder();
+
+    for(String n:n1)
+    {
+        //asscending append
+        //mySB.append(n);
+        //mySB.append(" ");
+        
+        //descending append
+        mySB.insert(0,n);
+        mySB.insert(0," ");
+    }
+	//System.out.println(n2);
+	System.out.println(mySB);
+	
+	}
+	}

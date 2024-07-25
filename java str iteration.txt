@@ -1,0 +1,23 @@
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	
+	
+	String sentance="Explore working with strings in Java"+", including the use of mutable strings through the StringBuilder class." 
+	+"including the use of mutable strings through the StringBuilder class. "+
+	"In this course, you will discover the nature and use of strings and primitive data types, in Java."+
+	" Observe how to compareand sequence strings,"+
+	" through equality tests and lexicography. Discover mutable strings, the advantages of string builder";
+	
+	String words[]=sentance.split("\\s+");
+	for(String word:words)
+	{
+	    System.out.print(word);
+	}
+
+	
+	
+}
+}

@@ -1,0 +1,26 @@
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	
+	
+	String n1="Smith, Fred";
+	String n2="Smith, Fred";
+	
+	System.out.println(n1.compareTo(n2));
+	System.out.println(n1.compareToIgnoreCase(n2));
+	
+	if(n1.compareTo(n2) <=0)
+	{
+	    	System.out.println(n1);
+	    	System.out.println(n2);
+	}else
+	{
+	        	System.out.println(n2);
+	    	System.out.println(n1);
+   
+	}
+	}
+	
+	}
