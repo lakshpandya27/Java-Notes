@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    
+	    int len=0;
+	    String st="abinesh";
+	    for(char c:st.toCharArray())
+	    {
+	        len++;
+	    }
+	    System.out.println(len);
+
+}
+}
+
+      
+      
+      
